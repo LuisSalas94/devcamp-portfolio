@@ -8,6 +8,9 @@
     <p>
       <%= link_to "Show this blog", blog %>
     </p>
+    <p>
+       <%= link_to "Delete Post", blog, method: :delete, data: {confirm: 'Are you sure'} %>
+    </p>
   <% end %>
 </div>
 
